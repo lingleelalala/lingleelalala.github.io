@@ -1,0 +1,32 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+/* 重置文字格式元素 */
+a { text-decoration: none; }
+/*the main code*/
+/*navbar*/
+.navbar a{
+  color: #696969;
+}
+.navbar-brand{
+  font-size: 200%;
+  font-family: Monaco, monospace;
+  margin: 30px;
+  color: #696969;
+}
+#my_navbar_header{
+  margin: 30px;
+}
+
+.navbar a:hover{
+  color: #000000;
+}
+.navbar_nav ul{
+  text-align: center;
+}
+.nav_item {
+  display: inline-block;
+  color: #000000;
+  font-family: Monaco, monospace;
+  margin: 10px;
+}

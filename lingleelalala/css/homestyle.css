@@ -1,0 +1,234 @@
+/* default*/
+html, body, div, span, applet, object, iframe,
+h1,h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 26, ../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+/* 重置文字格式元素 */
+a { text-decoration: none; }
+/*the main code*/
+/*navbar*/
+.navbar a{
+  color: #696969;
+}
+.navbar-brand{
+  font-size: 200%;
+  font-family: Monaco, monospace;
+  margin: 30px;
+  color: #696969;
+}
+#my_navbar_header{
+  margin: 30px;
+}
+
+.navbar a:hover{
+  color: #000000;
+}
+ul{
+  text-align: center;
+}
+li{
+  display: inline-block;
+  color: #000000;
+  font-family: Monaco, monospace;
+  margin: 10px;
+}
+/*navbar*/
+/*images*/
+.finallink{
+  display: block;
+  position: absolute;
+  top: 50vh;
+  left:60vw;
+}
+
+.htmllink{
+  margin: 30px;
+  display: block;
+  position: absolute;
+  top: 100vh;
+}
+
+.csslink{
+  margin-right: 30px;
+  display: block;
+  position: absolute;
+  top: 200vh;
+}
+
+.javalink{
+  display: block;
+  position: absolute;
+  top: 180vh;
+  left: 58vw;
+
+}
+/*images*/
+/*words*/
+.intro {
+  position: absolute;
+  top: 20vh;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 20px;
+  border: solid 3px;
+  text-align: center;
+}
+.intro h1{
+  font-family: "Times New Roman", serif;
+  font-size: 200%;
+}
+.intro p{
+  font-family: "Times New Roman", serif;
+  font-size: 150%;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.Header-final{
+  display: inline-block;
+  position: absolute;
+  font-family: Georgia,serif;
+  box-sizing: border-box;
+  border: solid 5px;
+  padding: 4%;
+  top: 60vh;
+  left: 38vw;
+  font-size: 200%;
+  color: #4682b4;
+}
+.Header-final a{
+  color: #4682b4;
+}
+.Header-final a:hover{
+  color: #FFFFFF;
+}
+.Header-final :hover{
+  background-color: #4682b4;
+}
+.Header-HTML{
+  display: inline-block;
+  position: absolute;
+  font-family: Georgia,serif;
+  box-sizing: border-box;
+  border: solid 5px;
+  padding: 4%;
+  top: 145vh;
+  left: 40vw;
+  font-size: 200%;
+  color: #696969;
+}
+.Header-HTML a{
+  color: #696969;
+}
+.Header-HTML a:hover{
+  color: #FFFFFF;
+}
+.Header-HTML :hover{
+  background-color: #696969;
+}
+.Header-CSS{
+  display: inline-block;
+  position: absolute;
+  font-family: Georgia,serif;
+  box-sizing: border-box;
+  border: solid 5px;
+  padding: 4%;
+  top: 250vh;
+  left: 32vw;
+  font-size: 200%;
+  color: #696969;
+}
+.Header-CSS a{
+  color: #696969;
+}
+.Header-CSS a:hover{
+  color: #FFFFFF;
+}
+.Header-CSS :hover{
+  background-color: #696969;
+}
+.Header-java{
+  display: inline-block;
+  position: absolute;
+  font-family: Georgia,serif;
+  box-sizing: border-box;
+  border: solid 5px;
+  padding: 4%;
+  top: 182vh;
+  left: 36vw;
+  font-size: 200%;
+  color: #4682b4;
+}
+.Header-java a{
+  color: #4682b4;
+}
+.Header-java a:hover{
+  color: #FFFFFF;
+}
+.Header-java :hover{
+  background-color: #4682b4;
+}
+/*words*/
+
+
+
